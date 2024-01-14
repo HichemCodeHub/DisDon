@@ -1,0 +1,64 @@
+* {
+    font-family: "Roboto", sans-serif;
+  }
+
+body {
+    background-color: rgb(22, 160, 202) ;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1440px;
+    min-width: 780px;
+}
+
+.textdisdon {
+    font-size: 60px;
+
+
+}
+
+
+
+header {
+    margin-bottom: 100px;
+}
+
+.logoettext {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin-right: 70px;
+}
+
+.logoettext img {
+    margin-top: 50px;
+    height: 48px;
+}
+
+.confirmation-mail {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.confirmation-mail img {
+ 
+}
+
+.overlay {
+    position: absolute;
+    top: 15%;
+    left: 16%;
+}
+
+p {
+    font-size: 28px;
+}
+
+
+
+
+
